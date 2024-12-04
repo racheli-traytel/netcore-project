@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dress-rent.API", "dress-rent.API\dress-rent.API.csproj", "{2752AA36-E885-4DB0-BE5D-CE9018D93D50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dress-rent.core", "dress-rent.core\dress-rent.core.csproj", "{EBB4CD71-27D6-4672-B941-E582D9E6FA3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dress-rent.Data", "dress-rent.Data\dress-rent.Data.csproj", "{52DBEBDC-A3BA-4B8F-8BB8-60DF2281C709}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dress-rent.Servise", "dress-rent.Servise\dress-rent.Servise.csproj", "{BEBF67B2-B4F7-454D-83DA-F80BF716F2C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2752AA36-E885-4DB0-BE5D-CE9018D93D50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2752AA36-E885-4DB0-BE5D-CE9018D93D50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2752AA36-E885-4DB0-BE5D-CE9018D93D50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2752AA36-E885-4DB0-BE5D-CE9018D93D50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBB4CD71-27D6-4672-B941-E582D9E6FA3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBB4CD71-27D6-4672-B941-E582D9E6FA3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBB4CD71-27D6-4672-B941-E582D9E6FA3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBB4CD71-27D6-4672-B941-E582D9E6FA3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52DBEBDC-A3BA-4B8F-8BB8-60DF2281C709}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52DBEBDC-A3BA-4B8F-8BB8-60DF2281C709}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52DBEBDC-A3BA-4B8F-8BB8-60DF2281C709}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52DBEBDC-A3BA-4B8F-8BB8-60DF2281C709}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEBF67B2-B4F7-454D-83DA-F80BF716F2C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEBF67B2-B4F7-454D-83DA-F80BF716F2C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEBF67B2-B4F7-454D-83DA-F80BF716F2C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEBF67B2-B4F7-454D-83DA-F80BF716F2C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54E3F562-E941-4341-A5C9-D0B2138205F8}
+	EndGlobalSection
+EndGlobal

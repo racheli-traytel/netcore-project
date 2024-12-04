@@ -1,0 +1,92 @@
+﻿{
+  "criticismlist": [
+    {
+      "Id": 1,
+      "CustomerId": 101,
+      "DressId": 201,
+      "CriticismDate": "2024-11-01T10:00:00",
+      "Rating": 5,
+      "Content": "The dress was amazing, highly recommended!",
+      "Isrecomended": true
+    },
+    {
+      "Id": 2,
+      "CustomerId": 102,
+      "DressId": 202,
+      "CriticismDate": "2024-11-10T14:30:00",
+      "Rating": 3,
+      "Content": "The dress was okay but not as expected.",
+      "Isrecomended": false
+    }
+  ],
+  "customerlist": [
+    {
+      "Id": 101,
+      "Name": "John Doe",
+      "Email": "john.doe@example.com",
+      "Address": "123 Main St, Cityville",
+      "Phone": "123-456-7890",
+      "BirthDate": "1990-05-15T00:00:00",
+      "RegistratinDate": "2024-01-01T00:00:00"
+    },
+    {
+      "Id": 102,
+      "Name": "Jane Smith",
+      "Email": "jane.smith@example.com",
+      "Address": "456 Oak St, Townville",
+      "Phone": "987-654-3210",
+      "BirthDate": "1985-09-10T00:00:00",
+      "RegistratinDate": "2024-02-15T00:00:00"
+    }
+  ],
+  "dresslist": [
+    {
+      "Id": 201,
+      "Name": "Red Elegant Dress",
+      "Size": 38,
+      "Color": "Red",
+      "Material": "Silk",
+      "Price": 120.99,
+      "NumberOfTimesBorrowed": 5
+    },
+    {
+      "Id": 202,
+      "Name": "Blue Casual Dress",
+      "Size": 40,
+      "Color": "Blue",
+      "Material": "Cotton",
+      "Price": 75.50,
+      "NumberOfTimesBorrowed": 2
+    }
+  ],
+  "order_detailslist": [
+    {
+      "Id": 301,
+      "OrderId": 401,
+      "DressId": 201
+    },
+    {
+      "Id": 302,
+      "OrderId": 402,
+      "DressId": 202
+    }
+  ],
+  "orderlist": [
+    {
+      "Id": 401,
+      "CustomerId": 101,
+      "OrderDate": "2024-11-05T12:00:00",
+      "RentDate": "2024-11-06T10:00:00",
+      "ReturnDate": "2024-11-10T18:00:00",
+      "Status": true
+    },
+    {
+      "Id": 402,
+      "CustomerId": 102,
+      "OrderDate": "2024-11-15T12:00:00",
+      "RentDate": "2024-11-16T10:00:00",
+      "ReturnDate": "2024-11-20T18:00:00",
+      "Status": false
+    }
+  ]
+}
